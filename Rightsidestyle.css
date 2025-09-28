@@ -1,0 +1,186 @@
+.right_sidebar{
+    /* border: 2px solid black; */
+    padding-left: 20px;
+    overflow-y: scroll;
+    height: 90vh;
+    border-left: 0.5px solid lightgray;
+}
+
+
+.staff{
+    height: 85vh;
+    margin-top: 20px;
+    /* margin-bottom: 50px; */
+    
+}
+
+
+
+.staff_card{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.p_img{
+    height: 18px;
+    width: 18px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVpcCcQNUGyTpt1jjsWPZVrdEvPHO3kr7Tdg&s");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.profile_staff{
+    display: flex;
+    gap: 3%;
+    align-items: center;
+
+}
+
+.profile_staff:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.recommend{
+    margin-top: 100px;
+    height: 320px;
+}
+
+.recommend p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.topics{
+    margin-top: 15px;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+
+.topics div{
+    height: 30px;
+    width: 40%;
+    background-color: lightgray;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.topics:hover{
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+        
+.who_follow{
+    width: 320px;
+    
+    padding: 20px;
+    border-radius: 12px;
+    
+}
+
+.widget-title{
+        font-size: 20px;
+        font-weight: bold;
+        color: #1f2937;
+        margin-bottom: 10px;
+}
+
+        
+.follow-item{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    transition: background-color 0.15s ease-in-out; 
+    cursor: pointer;
+}
+
+        
+.follow-item:hover {
+    background-color: #f5f5f5; 
+}
+
+        
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-shrink: 0; Prevents avatar from shrinking */
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+            
+}
+
+        
+       
+
+        
+.text-group {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1f2937;
+    line-height: 1.2;
+}
+
+.detail {
+    font-size: 13px;
+    color: #6b7280;
+    line-height: 1.4;
+}
+
+        
+.follow-button {
+    padding: 6px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 9999px; 
+    background-color: white;
+    color: #374151;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+   
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+
+.follow-button:hover{
+    background-color: #f9fafb;
+}
+
+.see-more {
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    padding-left: 12px;
+    padding-top: 8px;
+    display: inline-block;
+}
+
+
+
